@@ -1,6 +1,11 @@
 <html>
   <head>
     <title>This is the title of the webpage!</title>
+    <script type="text/javascript" charset="utf-8">
+  Genesys("subscribe", "Launcher.ready" , function(o){
+    console.log("The queue works!");
+  });
+</script>
     <script>
   (function(a,t,c,l,o,u,d){a['_genesysJourneySdk']=o;a[o]=a[o]||function(){
   (a[o].q=a[o].q||[]).push(arguments)},a[o].l=1*new Date();u=t.createElement(c),
